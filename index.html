@@ -1,0 +1,285 @@
+<!doctype html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+
+    <title>cafe and laundry GOICHI 西中崎</title>
+    
+    <!-- googleFontのリンク-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&family=Kiwi+Maru&family=Oswald&family=Smokum&display=swap" rel="stylesheet">
+    
+    <!-- ファビコンのリンク　-->
+    <link rel="icon" href="favicon/favicon.ico" id="favicon">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon-180x180.png">
+
+    <!-- slickのcssリンク -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    
+    <!--  animate.cssのスクリプト　-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+    
+    <!-- 自作のcssリンク -->
+    <link href="css/destyle.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    
+</head>
+
+<body>
+<div id="splash">
+    <div id="splash-logo"></div>
+</div>
+<div class="splashbg"></div><!---画面遷移用-->
+
+<div id="container">
+<!-- ここから遷移後の画面 -->
+<p>    
+
+<!-- ここからwrapperクラス -->
+<div class="wrapper">
+
+<header>
+
+<!--  ファーストビューの背景画像　-->
+    <div class="first-view">
+        <ul class="slider">
+            <li class="slider-item slider-item01"></li>
+            <li class="slider-item slider-item02"></li>
+            <li class="slider-item slider-item03"></li>
+        </ul>
+    </div>
+    
+<!--  ここからheader-boxクラス-->
+    <div class="header-box" id="#">
+    
+        <div class="header-logo">
+            <p>
+                <span>cafe and laundry</span><br>GOICHI
+            </p>
+        </div>
+        
+        <!--   幅が1081ピクセル以上の時に表示　　-->
+        <div class="header-menu">
+            <a href="#history">HISTORY</a>
+            <a href="#concept">CONCEPT</a>
+            <a href="#cafe">CAFE</a>
+            <a href="#laundry">LAUNDRY</a>
+            <a href="#sns">SNS</a>
+            <a href="#contact">CONTACT</a>
+        </div>
+        
+        <!--   幅が1080ピクセル以下の時に表示　　-->
+        <div class="ham-menu">
+            <div class="openbtn"><span></span><span></span><span></span></div>
+            <nav id="g-nav">
+            <div id="g-nav-list"><!--ナビの数が増えた場合縦スクロールするためのdiv※不要なら削除-->
+            <ul>
+                <li><a href="#">TOP</a></li> 
+                <li><a href="#history">HISTORY</a></li> 
+                <li><a href="#concept">CONCEPT</a></li> 
+                <li><a href="#cafe">CAFE</a></li> 
+                <li><a href="#laundry">LAUNDRY</a></li> 
+                <li><a href="#sns">SNS</a></li> 
+                <li><a href="#contact">CONTACT</a></li> 
+            </ul>
+            </div>
+            </nav>
+        </div>
+        
+    </div>
+<!--  ここまでheader-boxクラス-->
+    <div class="center-word first">
+        <p>洗濯ついでに<br>コーヒー一杯。</p>
+        <p>日常の中にも<br>一期一会。</p>
+    </div>
+</header>
+
+<main>
+    <div class="main-box">
+        <div class="box-title">
+            <p id="history">HISTORY</p>
+        </div>
+        <div class="box-image">
+            <img src="img/box-image/coffee_human.jpg" alt="コーヒーを淹れる写真" loading="lazy">
+        </div>
+        <div class="box-content">
+            <p><span class="strong">「あそこに行けば、<br>誰かがいる」</span></p>
+            <p>そんな安心感のある場所を
+                <br>作りたいという気持ちから
+                <br>「cafe and laundry GOICHI」は
+                <br>生まれました。
+            </p>
+            
+        </div>
+    </div>
+
+    <div class="main-box">
+        <div class="box-title">
+            <p id="concept">CONCEPT</p>
+        </div>
+        <div class="box-image">
+            <img src="img/box-image/shop-outside.jpg" alt="店舗外装" loading="lazy">
+        </div>
+        <div class="box-content">
+            <p>洗濯を待つ間に
+                <br>漫画を読んだり
+            </p>
+            <p>特に用事はないけど
+                <br>コーヒー一杯を飲みに来たり 
+            </p>
+            <p>人のいる空間にいたいから
+                <br>とりあえず入店してみたり。
+            </p>
+            <p><span class="strong">「日常の延長線上に<br>GOICHIがある。」</span></p>
+            
+            <p>そう思ってもらえるような
+                <br>お店作りを目指しています。
+            </p>
+            
+        </div>
+    </div>
+    
+    <div class="main-box">
+        <div class="box-title">
+            <p id="cafe">CAFE</p>
+        </div>
+        <div class="box-image">
+            <img src="img/box-image/pancakes.jpg" alt="カフェの写真" loading="lazy">
+        </div>
+        <div class="box-content">
+            <p>GOICHIでは、
+                <br>ドリンク・フードともに
+                <br>数種類のメニューを
+                <br>ご用意しております。
+            </p>
+            <p>また、GOICHIでのお支払いは
+                <br>全て<span class="yellow">キャッシュレス</span>で
+                <br>行っております。</p>
+  
+            
+        </div>
+    </div>
+    
+    <div class="main-box">
+        <div class="box-title">
+            <p id="laundry">LAUNDRY</p>
+        </div>
+        <div class="box-image">
+            <img src="img/box-image/laundry-clean.jpg" alt="洗濯の写真" loading="lazy">
+        </div>
+        <div class="box-content">
+            <p>GOICHIでは、最新の洗濯機を
+                <br>ご用意しております。
+            </p>
+            
+            <p>また、CAFEと同様に、お支払いは
+                <br>全て<span class="yellow">キャッシュレス</span>で
+                <br>行っております。</p>
+        </div>
+    </div>
+    
+    <div class="main-box">
+        <div class="box-title">
+            <p id="sns">SNS</p>
+        </div>
+        <div class="sns-image">
+            <div class="sns-icon">
+                <i class="fa-brands fa-line fa-3x" alt="LINEのアイコン"></i>
+            </div>
+            <div class="sns-icon">
+                <i class="fa-brands fa-square-twitter fa-3x" alt="twitterのアイコン"></i>
+            </div>
+            <div class="sns-icon">
+                <i class="fa-brands fa-instagram fa-3x" alt="instagramのアイコン"></i>
+            </div>
+            
+        </div>
+        <div class="box-content">
+            <p>cafe and laundry GOICHIは、
+                <br>各種SNSで情報発信を行っております。</p>
+        </div>
+    </div>
+    
+    <div class="main-box">
+        <div class="box-title">
+            <p id="contact">CONTACT</p>
+        </div>
+        <div class="box-image">
+            <i class="fa-regular fa-envelope fa-3x" alt="メールのアイコン"></i>
+        </div>
+        <div class="box-content">
+            <p>お問い合わせは
+                <br>こちらのメールアドレスまで。</p>
+                
+            <p><span>goichi@gmail...com(架空)</span></p>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="address">
+        <p>住所：大阪府大阪市北区<br>中崎西１丁目〇〇-〇〇</p>   
+    </div>
+    <div class="map">
+        <a href="https://goo.gl/maps/5PQxvtSSwf7fntBg6" target="_blank" rel="noopener noreferrer">
+            <i class="fa-solid fa-location-dot"　alt="マップのアイコン"></i>
+            地図で見る
+        </a>
+    </div>
+    <div class="footer-logo">
+        <a href="#">
+            <span>cafe and laundry</span><br>GOICHI
+        </a>
+    </div>
+    <div class="copyright">
+        <p>
+            Copyright© cafe and laundry GOICHI.
+        </p>
+    </div>
+</footer>
+</div>  
+<!-- ここまでwrapperクラス -->
+
+<!--「ページ内のトップに戻る」ボタン   -->
+<div id="js-pagetop">
+    <i class="fa-regular fa-circle-up fa-2x"></i>
+</div>
+
+</p>
+<!-- ここまで遷移後の画面 -->
+</div>
+
+    
+
+    <!-- jQueryのスクリプト -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <!-- textillate.jsのスクリプト　-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/textillate/0.4.0/jquery.textillate.min.js"></script>
+    
+    <!-- lettering.jsのスクリプト　-->
+    <script src="js/jquery.lettering.js"></script>
+    
+<!--
+     ProgressBar.jsのスクリプト 
+    <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.min.js"></script>
+-->
+    
+    <!-- slickのスクリプト -->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    
+    <!-- 自作js -->
+    <script src="js/script.js"></script>
+    
+    <!-- fontawesomeのスクリプト -->
+    <script src="https://kit.fontawesome.com/d21f62b8c0.js" crossorigin="anonymous"></script>
+    
+    
+</body>
+
+
+</html>
+
