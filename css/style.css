@@ -390,14 +390,14 @@ body.appear #container {
   display: block;
   text-align: center;
 }
-.box-content p {
+.normalText {
   font-size: 1.2rem;
   line-height: 1.7rem;
   padding: 16px 0;
   letter-spacing: 1px;
 }
 /* box-content内の装飾の設定　 */
-.strong {
+.strongText {
   font-size: 1.5rem;
   font-weight: bold;
   font-style: italic;
@@ -405,6 +405,19 @@ body.appear #container {
   letter-spacing: 8px;
 }
 
+.smoothText {
+  overflow: hidden;
+  display: block;
+}
+.smoothTextTrigger {
+  transition: 0.8s ease-in-out;
+  transform: translate3d(0, 100%, 0) skewY(12deg);
+  transform-origin: left;
+  display: block;
+}
+.smoothTextTrigger.smoothTextAppear {
+  transform: translate3d(0, 0, 0) skewY(0);
+}
 .text-line {
   background-color: #ff9;
   font-weight: bold;
@@ -593,7 +606,7 @@ footer {
     display: block;
     text-align: center;
   }
-  .box-content p {
+  .normalText {
     font-size: 1rem;
     line-height: 1.5rem;
     padding: 16px 0;
@@ -601,7 +614,7 @@ footer {
   }
 
   /* box-content内の装飾の設定　 */
-  .strong {
+  .strongText {
     font-size: 1.2rem;
     font-weight: bold;
     font-style: italic;
@@ -668,7 +681,7 @@ footer {
     display: block;
     text-align: center;
   }
-  .box-content p {
+  .normalText {
     font-size: 0.7rem;
     line-height: 1rem;
     padding: 16px 0;
@@ -676,7 +689,7 @@ footer {
   }
 
   /* box-content内の装飾の設定　 */
-  .strong {
+  .strongText {
     font-size: 1rem;
     font-weight: bold;
     font-style: italic;
